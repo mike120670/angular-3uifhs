@@ -8,12 +8,12 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 export class AppComponent {
   name = 'Parent';
   msgFromChild1: any;
-  currentMsgToChild2 = "I'm coming!";
+  currentMsgToChild = "Tesr";
   msgToChild2 = [];
   msg: any;
 
   msgChild2() {
-    this.msgToChild2.push(this.currentMsgToChild2);
+    this.msgToChild2.push(this.currentMsgToChild);
   }
 
   getMsgFromBaby($event) {
