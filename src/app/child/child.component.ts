@@ -8,9 +8,7 @@ import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 export class ChildComponent implements OnInit {
   /* @Input()
   arrList: Array<number> = [7,5,2,1,-3,9];
-
   @Output()
-
   arrSelectedEventEmitter =  new EventEmitter();*/
 
   @Input() msgFromParent: any[];
